@@ -1,0 +1,77 @@
+.common{
+    display: flex;
+    
+}
+.form{
+    
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+    padding-top: 30px;
+    border: 3px solid black;
+    background-color: rgb(202, 197, 197);
+}
+.form form {
+    padding-top: 30px;
+}
+.form form input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.others{
+    
+    height: 100vh;
+    width: 100vh;
+}
+
+.camera{
+    
+    height: 50%;
+    color: white;
+}
+.camera img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 5px;
+    
+}
+.details{
+    margin-top: 5px;
+    height: 50%;
+}
+
+.personal{
+    
+    height: 50%;
+    display: flex;
+}
+.person {
+    width: 50%;
+    padding-left: 5px;
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.approved{
+    
+    height: 50%;
+    text-align: center;
+    color: green;
+    block-size: 20px;
+    margin-top: 50px;
+
+}
